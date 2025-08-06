@@ -1,5 +1,5 @@
 use std::process::{Command, Stdio};
-use std::io::{self, Write};
+use std::io::Write;
 
 fn main() {
     let output = Command::new("kitty")
